@@ -1,0 +1,45 @@
+.table-view {
+    background-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill:white
+}
+
+.table-view:focused {
+    background-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill:white
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    background-color: transparent;
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+    background-color: transparent;
+}
+
+.table-view .column-header-background .label{
+    background-color: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    background-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:selected,
+.table-row-cell:hover {
+    background-color: #005797;
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}

@@ -1,0 +1,15 @@
+.button {
+    -fx-background-color: linear-gradient(#718093, #7f8fa6);
+    background-color: linear-gradient(#718093,#7f8fa6);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color: #353b48;
+    background-color: #353b48;
+}
+.button:armed{    
+    -fx-background-color: linear-gradient(#718093, #7f8fa6);
+    background-color: linear-gradient(#718093,#7f8fa6);
+}
