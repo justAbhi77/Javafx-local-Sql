@@ -30,7 +30,7 @@ public class Hello3Con {
                 final int j = i;
                 TableColumn col = new TableColumn(output.getMetaData().getColumnName(i+1));
                 col.setCellValueFactory((Callback<TableColumn.CellDataFeatures<ObservableList, String>, ObservableValue<String>>) param -> {
-                    if(param.getValue() !=null)
+                    if(param.getValue().get(j) !=null)
                         return new SimpleStringProperty(param.getValue().get(j).toString());
                     return null;
                 });

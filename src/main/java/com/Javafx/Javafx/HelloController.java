@@ -55,6 +55,7 @@ public class HelloController {
             new UserData(dblink);
             Stage stage=(Stage)btn.getScene().getWindow();
             UserData.self.stage=stage;
+            UserData.self.stage.setTitle("Chose Database");
             UserData.self.changeScene("second");
         }
         catch (Exception e){

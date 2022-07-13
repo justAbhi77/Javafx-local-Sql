@@ -54,6 +54,7 @@ public class Hello2Con {
             }
 
             btn.setOnAction(event -> onChoseSec());
+            UserData.self.stage.setTitle("Chose Table");
             sBtn.setVisible(true);
         }
         catch(Exception e){
@@ -68,6 +69,7 @@ public class Hello2Con {
         System.out.println("Chose "+ databases.getSelectionModel().getSelectedItem()+" as table to use.");
         UserData.self.tablenm=choice;
         try{
+            UserData.self.stage.setTitle("View");
             UserData.self.changeScene("third");
         }
         catch(Exception e){
